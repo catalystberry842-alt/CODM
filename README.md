@@ -7,7 +7,7 @@
 **5v5 Team Deathmatch · AI squads · 3 weapon classes · Touch & keyboard controls**
 
 [![Play Now](https://img.shields.io/badge/▶_PLAY_NOW-szfps.vercel.app-ffb400?style=for-the-badge)](https://szfps.vercel.app)
-[![GitHub Pages](https://img.shields.io/badge/ALT_LINK-GitHub_Pages-222?style=for-the-badge&logo=github)](https://catalystberry842-alt.github.io/CODM/)
+[![GitHub Pages](https://img.shields.io/badge/ALT_LINK-GitHub_Pages-222?style=for-the-badge&logo=github)](https://catalystberry842-alt.github.io/strike-zone/)
 
 ![Three.js](https://img.shields.io/badge/Engine-Three.js_r128-black?logo=three.js)
 ![HTML5](https://img.shields.io/badge/HTML5-Single_File-e34f26?logo=html5&logoColor=white)
@@ -200,8 +200,8 @@ An 80×80m enclosed military yard:
 ## 💻 Run It Yourself
 
 ```bash
-git clone https://github.com/catalystberry842-alt/CODM.git
-cd CODM
+git clone https://github.com/catalystberry842-alt/strike-zone.git
+cd strike-zone
 # open index.html in any modern browser
 ```
 
@@ -226,7 +226,7 @@ Needs an internet connection the first time (to load Three.js).
 - [ ] Global leaderboard
 - [ ] Custom button layout for phone controls
 
-Got an idea? [Open an issue](https://github.com/catalystberry842-alt/CODM/issues).
+Got an idea? [Open an issue](https://github.com/catalystberry842-alt/strike-zone/issues).
 
 ---
 
