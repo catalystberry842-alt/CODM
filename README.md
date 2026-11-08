@@ -7,7 +7,6 @@
 5v5 Team Deathmatch · AI squads · Three weapon classes · Touch and keyboard controls
 
 [![Play](https://img.shields.io/badge/Play-szfps.vercel.app-ffb400?style=flat-square)](https://szfps.vercel.app)
-[![Mirror](https://img.shields.io/badge/Mirror-GitHub_Pages-24292f?style=flat-square&logo=github)](https://catalystberry842-alt.github.io/strike-zone/)
 [![Engine](https://img.shields.io/badge/Engine-Three.js_r128-000000?style=flat-square&logo=three.js)](https://threejs.org)
 [![Platform](https://img.shields.io/badge/Platform-Web_%7C_Mobile-3fa2ff?style=flat-square)](#controls)
 
@@ -187,7 +186,7 @@ Crates can be used to reach the tops of containers for elevated sniper positions
 | Physics | Custom circle-versus-AABB collision with gravity, step-up and jumping |
 | AI | State-driven agents using raycast line-of-sight checks |
 | Audio | Web Audio API, fully synthesized |
-| Hosting | Vercel (primary), GitHub Pages (mirror) |
+| Hosting | Vercel |
 
 ---
 
