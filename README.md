@@ -1,250 +1,238 @@
 <div align="center">
 
-# 🎯 STRIKE ZONE
+# STRIKE ZONE
 
-### A 3D mobile-first tactical shooter that runs right in your browser
+**A mobile-first 3D tactical shooter that runs in the browser.**
 
-**5v5 Team Deathmatch · AI squads · 3 weapon classes · Touch & keyboard controls**
+5v5 Team Deathmatch · AI squads · Three weapon classes · Touch and keyboard controls
 
-[![Play Now](https://img.shields.io/badge/▶_PLAY_NOW-szfps.vercel.app-ffb400?style=for-the-badge)](https://szfps.vercel.app)
-[![GitHub Pages](https://img.shields.io/badge/ALT_LINK-GitHub_Pages-222?style=for-the-badge&logo=github)](https://catalystberry842-alt.github.io/strike-zone/)
-
-![Three.js](https://img.shields.io/badge/Engine-Three.js_r128-black?logo=three.js)
-![HTML5](https://img.shields.io/badge/HTML5-Single_File-e34f26?logo=html5&logoColor=white)
-![Mobile](https://img.shields.io/badge/Mobile-Touch_Controls-3fa2ff)
-![No Install](https://img.shields.io/badge/Install-None_Needed-3fdc6a)
+[![Play](https://img.shields.io/badge/Play-szfps.vercel.app-ffb400?style=flat-square)](https://szfps.vercel.app)
+[![Mirror](https://img.shields.io/badge/Mirror-GitHub_Pages-24292f?style=flat-square&logo=github)](https://catalystberry842-alt.github.io/strike-zone/)
+[![Engine](https://img.shields.io/badge/Engine-Three.js_r128-000000?style=flat-square&logo=three.js)](https://threejs.org)
+[![Platform](https://img.shields.io/badge/Platform-Web_%7C_Mobile-3fa2ff?style=flat-square)](#controls)
 
 </div>
 
 ---
 
-## 📖 About
+## Overview
 
-**Strike Zone** is a fast-paced first-person shooter inspired by mobile FPS games. You drop into **Crossroads Yard** — a military shipping yard packed with containers, crates, sandbag cover and a central compound — alongside 4 AI teammates to fight a 5-bot enemy squad.
+Strike Zone is a first-person shooter built for mobile browsers. Players join a five-person squad alongside four AI teammates and compete against a five-bot enemy team on **Crossroads Yard**, a compact military shipping yard designed for fast, close-to-mid-range engagements.
 
-No app store. No download. No account. Open the link on your phone, turn it sideways, hit **START**.
+There is nothing to install and no account required. Open the link, rotate to landscape and press **START**.
 
-The entire game — engine setup, map, AI, weapons, HUD, menus and sound — lives in a **single `index.html` file**.
-
----
-
-## 🎮 How to Play
-
-1. Open **[szfps.vercel.app](https://szfps.vercel.app)** on your phone or computer
-2. 📱 On phone: **rotate to landscape** (tap ⛶ in the lobby for fullscreen)
-3. Pick your weapon in **LOADOUT**
-4. Tap **START**
-5. You're on **🔵 BLUE**. Eliminate **🔴 RED**.
-
-### 🏆 Win Condition
-- First team to **30 kills** wins
-- Or the team with the **most kills when the 5:00 timer** runs out
-- Ties end in a **DRAW**
+The entire game — rendering, map, AI, weapons, HUD, menus and audio — ships as a single self-contained `index.html`.
 
 ---
 
-## 🕹️ Controls
+## Quick Start
 
-### 📱 Phone / Tablet
+1. Open **[szfps.vercel.app](https://szfps.vercel.app)** on a phone or desktop browser
+2. On mobile, rotate to landscape (use the fullscreen button in the lobby for best results)
+3. Select a weapon in **Loadout**
+4. Press **START**
 
-| Action | Control |
+**Objective:** You play on the Blue team. The first team to reach **30 eliminations** wins. If the **5:00** match timer expires, the team with more eliminations wins; equal scores result in a draw.
+
+---
+
+## Controls
+
+### Mobile
+
+| Action | Input |
 |---|---|
-| Move | Drag anywhere on the **left side** (floating joystick) |
-| Sprint | Push the joystick **all the way forward** (knob turns gold) |
-| Look around | Drag anywhere on the **right side** |
-| Fire | **Big red button** (right) or **small red button** (left) |
-| Aim + shoot together | Hold fire and **drag your thumb** — it aims while shooting |
-| Aim down sights | Tap the **scope** button (toggle) |
-| Reload | Tap the **circular arrow** |
-| Jump | Tap the **chevron** |
-| Pause | **❚❚** top-right |
+| Move | Drag on the left half of the screen (floating joystick) |
+| Sprint | Push the joystick fully forward |
+| Look | Drag on the right half of the screen |
+| Fire | Primary fire button (right) or secondary fire button (left) |
+| Fire while aiming | Hold a fire button and drag to adjust aim |
+| Aim down sights | Scope button (toggle) |
+| Reload | Reload button |
+| Jump | Jump button |
+| Pause | Pause button, top right |
 
-### ⌨️ Keyboard & Mouse
+### Desktop
 
-| Action | Key |
+| Action | Input |
 |---|---|
-| Move | `W` `A` `S` `D` / Arrow keys |
+| Move | `W` `A` `S` `D` or arrow keys |
 | Sprint | `Shift` |
-| Look | Mouse (click the screen to lock the cursor) |
-| Fire | Left click |
-| Aim down sights | Right click (hold) |
+| Look | Mouse (click to capture cursor) |
+| Fire | Left mouse button |
+| Aim down sights | Right mouse button (hold) |
 | Reload | `R` |
 | Jump | `Space` |
-| Pause | `Esc` / `P` |
+| Pause | `Esc` or `P` |
 
 ---
 
-## 🔫 Arsenal
+## Weapons
 
-Choose one primary weapon in **LOADOUT** before the match. Your pick is saved for next time.
+One primary weapon is selected before each match. The selection persists between sessions.
 
-| Weapon | Class | Damage | Fire Rate | Magazine | Reload | Best For |
+| Weapon | Class | Damage | Fire Rate | Magazine / Reserve | Reload | Role |
 |---|---|---|---|---|---|---|
-| **M7 Ranger** | Assault Rifle | 27 | 600 RPM | 30 / 150 | 1.9s | All-round — mid range, steady recoil |
-| **Viper-9** | SMG | 19 | ~900 RPM | 36 / 180 | 1.5s | Close quarters, fastest movement |
-| **Longbow** | Sniper | 100 | Bolt-action | 5 / 30 | 2.5s | Long range one-shot kills with scope |
+| M7 Ranger | Assault Rifle | 27 | 600 RPM | 30 / 150 | 1.9 s | Versatile mid-range |
+| Viper-9 | Submachine Gun | 19 | ~900 RPM | 36 / 180 | 1.5 s | Close quarters, high mobility |
+| Longbow | Sniper Rifle | 100 | Bolt action | 5 / 30 | 2.5 s | Long-range precision |
 
-**Weapon mechanics**
-- 🎯 **Headshots** deal bonus damage — ×1.6 (AR), ×1.5 (SMG), ×2.2 (Sniper)
-- 📉 **Damage falloff** — SMG loses damage past 22m, AR past 45m
-- 🌀 **Bullet spread** grows when moving or jumping; tightens when aiming down sights
-- 💥 **Recoil** kicks the camera up with each shot; reduced while aiming
-- 🔭 **Sniper scope** — full-screen scope overlay with 20° zoom
-- 🔴 **Red-dot sight** on AR and SMG when aiming
-- 🔄 **Auto-reload** when the magazine runs dry
+**Ballistics**
+
+- Headshot multipliers: ×1.6 (AR), ×1.5 (SMG), ×2.2 (Sniper)
+- Damage falloff beyond 22 m (SMG) and 45 m (AR)
+- Spread increases while moving or airborne and tightens when aiming down sights
+- Per-shot vertical recoil, reduced while aiming
+- Red-dot sight on the AR and SMG; full scope overlay with 20° zoom on the sniper
+- Automatic reload on an empty magazine
 
 ---
 
-## ✨ Features
+## Features
 
 ### Combat
-- **Hitscan shooting** with real line-of-sight — walls and containers block bullets
-- **Hit markers** (white on hit, red on kill) with audio feedback
-- **Damage direction indicator** — red arc points to where you're being shot from
-- **Health regeneration** after 4 seconds out of combat
-- **Spawn protection** — 2 seconds of invulnerability after respawning
-- **Death cam** — camera lifts and tracks your killer during the 4s respawn
 
-### Kill Streaks & Medals
-| Medal | How |
+- Hitscan shooting with full line-of-sight — terrain and cover block shots
+- Hit markers with distinct kill confirmation and audio feedback
+- Directional damage indicator
+- Health regeneration after four seconds without taking damage
+- Two seconds of spawn protection
+- Kill cam that follows the eliminating player during the respawn timer
+
+### Medals
+
+| Medal | Condition |
 |---|---|
-| `ELIMINATED` | Standard kill |
-| `HEADSHOT` | Kill with a head hit |
-| `DOUBLE KILL` → `TRIPLE KILL` → `QUAD KILL` → `RAMPAGE` | Kills within 4s of each other |
-| `5 STREAK` | 5 kills without dying |
-| `UNSTOPPABLE` | 10 kills without dying |
+| Eliminated | Standard elimination |
+| Headshot | Elimination with a head hit |
+| Double Kill · Triple Kill · Quad Kill · Rampage | Consecutive eliminations within four seconds |
+| 5 Streak | Five eliminations without dying |
+| Unstoppable | Ten eliminations without dying |
 
-### AI Bots
-- **9 AI soldiers** — 4 teammates (Ghost, Ace, Nova, Bolt) and 5 enemies (Rex, Havoc, Raven, Blitz, Cobra)
-- Bots **see you** only with line-of-sight and a forward field of view — you can flank them
-- They **hear gunfire** and **react when shot**, turning to face the attacker
-- **Combat movement** — strafing, closing distance, backing off when too close
-- **Burst fire** with reaction delays based on difficulty
-- **Hunt last-known positions** of enemies who break line of sight
-- Bots fight **each other**, not just you
-- Unstuck logic — bots reroute if blocked by cover
+### Artificial Intelligence
 
-### Difficulty
-| Level | Accuracy | Reaction Time | Damage to You |
+- Nine AI combatants: four allies and five opponents
+- Vision based on line-of-sight and a forward field of view, which allows flanking
+- Awareness of nearby gunfire and incoming damage
+- Combat movement including strafing, advancing and retreating to preferred range
+- Burst fire with difficulty-dependent reaction times
+- Pursuit of last-known enemy positions
+- Bots engage each other, not only the player
+- Path recovery when blocked by obstacles
+
+| Difficulty | Accuracy | Reaction Time | Damage per Hit |
 |---|---|---|---|
-| Easy | Low | ~1.0s | 7 per hit |
-| Normal | Medium | ~0.65s | 9 per hit |
-| Hard | High | ~0.4s | 11 per hit |
+| Easy | Low | ~1.0 s | 7 |
+| Normal | Medium | ~0.65 s | 9 |
+| Hard | High | ~0.4 s | 11 |
 
-### HUD
-- 🗺️ **Rotating minimap** — teammates in blue; enemies show as **red dots only when they fire**
-- 📊 **Live scoreboard bar** with team progress toward 30 kills + match timer
-- 📰 **Kill feed** (top-right) with weapon and headshot icon
-- ❤️ **Health bar** (turns red when low) + red screen vignette as you take damage
-- 🔢 **Ammo counter** (turns red when low) + "RELOADING" indicator
-- ➕ **Dynamic crosshair** that widens with spread and turns red over enemies
-- 🏷️ **Enemy name tag** appears when your crosshair is on them
-- 🔷 **Ally markers** above teammates' heads (visible through walls)
+### Interface
+
+- Rotating minimap; allies always visible, opponents revealed briefly when they fire
+- Score bar with progress toward the score limit and match timer
+- Kill feed with weapon and headshot indicators
+- Health bar and damage vignette
+- Ammunition counter with low-ammo and reload states
+- Dynamic crosshair reflecting current spread, with enemy highlight and name tag
+- Ally markers visible through walls
 
 ### Menus
-- **Lobby** with live 3D map flyover, player name and win/loss record
-- **Loadout** cards with stat bars for each weapon
-- **Settings** — player name, look sensitivity, volume, graphics, bot difficulty, FPS counter
-- **Pause menu** with live scoreboard
-- **End screen** — Victory / Defeat / Draw, your kills, deaths, K/D, accuracy and full team scoreboards
 
-### Graphics
-- Real-time **dynamic shadows** from a sun light
-- Procedurally generated **textures** (concrete, corrugated containers, crates, sandbags, ground)
-- **Distance fog**, gradient sky and low-poly mountain backdrop
-- **Muzzle flashes**, bullet **tracers**, impact dust and hit puffs
-- **First-person weapon model** with sway, bob, recoil kick, sprint pose and reload animation
-- Animated soldier models with walking legs and death falls
-- **3 graphics presets** (Low / Med / High) for weaker or stronger phones
+- Lobby with live 3D map flyover, player name and win/loss record
+- Loadout screen with comparative stat bars
+- Settings: player name, look sensitivity, volume, graphics quality, bot difficulty, FPS counter
+- Pause menu with live scoreboard
+- Post-match summary with result, eliminations, deaths, K/D ratio, accuracy and full scoreboards
 
-### Audio
-- Synthesized gunshot sounds per weapon (no audio files needed)
-- **Distance-based volume** for enemy gunfire
-- Hit, kill, damage, reload and match-end sound cues
+### Visuals and Audio
 
-### Saved Between Sessions
-Your **name, settings, loadout and win/loss record** are stored in your browser.
+- Real-time directional shadows
+- Procedurally generated textures for concrete, containers, crates, sandbags and terrain
+- Distance fog, gradient sky and low-poly mountain backdrop
+- Muzzle flashes, tracers and impact effects
+- First-person weapon model with sway, bob, recoil, sprint pose and reload animation
+- Animated character models with locomotion and death animations
+- Three graphics presets (Low, Medium, High)
+- Synthesized weapon audio with distance attenuation (no audio assets)
+
+### Persistence
+
+Player name, settings, loadout and win/loss record are stored locally in the browser.
 
 ---
 
-## 🗺️ Map: Crossroads Yard
+## Map: Crossroads Yard
 
-An 80×80m enclosed military yard:
+An enclosed 80 × 80 m military yard.
 
 - **Central compound** — four walls with a doorway on each side and a partial roof
-- **12 shipping containers** (some stacked two-high) for long-range cover
-- **Side lanes** with tall walls splitting the flanks
-- **Sandbag lines** in front of each spawn and in the mid-lanes
-- **24 supply crates** — some stacked — you can **jump on top** for height advantage
-- Blue spawns **north**, Red spawns **south**
+- **Shipping containers** — twelve units, some stacked two high, for long sightlines and cover
+- **Side lanes** — tall walls separating the flanks
+- **Sandbag lines** — in front of each spawn and across the mid lanes
+- **Supply crates** — twenty-four in total, climbable for elevated positions
+- **Spawns** — Blue in the north, Red in the south
 
-> 💡 **Tip:** Jump onto a crate, then onto a container for a sniper perch.
+Crates can be used to reach the tops of containers for elevated sniper positions.
 
 ---
 
-## 🛠️ Tech
+## Technical Details
 
-| | |
+| Component | Implementation |
 |---|---|
-| Engine | [Three.js](https://threejs.org) r128 (WebGL), loaded from cdnjs |
-| Language | Vanilla JavaScript — no frameworks, no build step |
-| Size | One ~72 KB `index.html` |
-| Rendering | Two-pass: world scene + separate weapon view-model scene (gun never clips into walls) |
-| Physics | Custom circle-vs-box collision, gravity, step-up and jumping |
-| AI | State-based bots with raycast line-of-sight checks |
-| Audio | Web Audio API (synthesized) |
-| Hosting | Vercel + GitHub Pages |
+| Rendering | Three.js r128 (WebGL), loaded from cdnjs |
+| Language | Vanilla JavaScript — no framework, no build step |
+| Distribution | Single `index.html`, approximately 72 KB |
+| Render pipeline | Two passes: world scene, then a separate view-model scene so the weapon never clips into geometry |
+| Physics | Custom circle-versus-AABB collision with gravity, step-up and jumping |
+| AI | State-driven agents using raycast line-of-sight checks |
+| Audio | Web Audio API, fully synthesized |
+| Hosting | Vercel (primary), GitHub Pages (mirror) |
 
 ---
 
-## 💻 Run It Yourself
+## Running Locally
 
 ```bash
 git clone https://github.com/catalystberry842-alt/strike-zone.git
 cd strike-zone
-# open index.html in any modern browser
 ```
 
-Or serve it locally:
+Open `index.html` in any modern browser, or serve the directory:
 
 ```bash
 npx serve .
 ```
 
-Needs an internet connection the first time (to load Three.js).
+An internet connection is required on first load to fetch Three.js.
 
 ---
 
-## 🚧 Roadmap
+## Performance
 
-- [ ] More game modes — **Zombies**, **Battle Royale (mini)**, **Gun Game**
-- [ ] More maps
-- [ ] Secondary weapons (pistol) + grenades
-- [ ] Weapon attachments and skins
-- [ ] Crouch / slide
-- [ ] Real online multiplayer with friends
+- Set **Settings → Graphics** to **Low** on older devices; this disables shadows and lowers render resolution
+- Enable **Show FPS** to monitor frame rate
+- Chrome (Android) and Safari (iOS) are recommended
+
+---
+
+## Roadmap
+
+- [ ] Additional modes: Zombies, Mini Battle Royale, Gun Game
+- [ ] Additional maps
+- [ ] Secondary weapons and grenades
+- [ ] Weapon attachments and cosmetics
+- [ ] Crouch and slide
+- [ ] Online multiplayer
 - [ ] Global leaderboard
-- [ ] Custom button layout for phone controls
+- [ ] Customizable mobile control layout
 
-Got an idea? [Open an issue](https://github.com/catalystberry842-alt/strike-zone/issues).
-
----
-
-## 📱 Performance Tips
-
-- Lagging? **Settings → Graphics → LOW** (turns off shadows, lowers resolution)
-- Turn on **Show FPS** to check performance
-- Close other apps / browser tabs
-- Use **Chrome** on Android or **Safari** on iPhone for best results
+Suggestions and bug reports are welcome via [Issues](https://github.com/catalystberry842-alt/strike-zone/issues).
 
 ---
 
-<div align="center">
+## Credits
 
-**Built by [@catalystberry842-alt](https://github.com/catalystberry842-alt)**
+Built by **[@omaofweb3](https://x.com/omaofweb3)**.
 
-*Strike Zone is an original game. It is not affiliated with or endorsed by any other game or publisher.*
-
-⭐ Star the repo if you enjoyed it!
-
-</div>
+Strike Zone is an original work and is not affiliated with or endorsed by any other game or publisher.
